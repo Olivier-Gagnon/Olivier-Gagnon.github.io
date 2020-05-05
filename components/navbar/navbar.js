@@ -5,20 +5,14 @@ const pages = [
         target: "section-container",
         section: "home",
         mathjax: true,
-        script: false
-    },
-    {
-        selector: "chart-test",
-        target: "section-container",
-        section: "chart-test",
-        mathjax: true,
-        script: true
+        script: false,
+        highlighted: false
     }
 ]
 
 //helper function to 
 function loadPage(page) {
-    const {selector, target, section, mathjax, script } = page
+    const {selector, target, section, mathjax, script, highlighted} = page
     return function () {
         $(`#${selector}`).click(function () {
             $(`#${target}`).load(`/sections/${section}/${section}.html`, function () {
@@ -31,11 +25,13 @@ function loadPage(page) {
                     $.getScript(`/sections/${section}/${section}.js`)
                 }
                 
-                
-                $('.activated').removeClass('activated')
-                $(`#${selector}`).addClass("activated")
+                if(highlighted){
+                    $('.activated').removeClass('activated')
+                    $(`#${selector}`).addClass("activated")
+                }
 
             });
+            
         });
     }
 }
