@@ -12,26 +12,26 @@ const pages = [
 
 //helper function to 
 function loadPage(page) {
-    const {selector, target, section, mathjax, script, highlighted} = page
+    const { selector, target, section, mathjax, script, highlighted } = page
     return function () {
         $(`#${selector}`).click(function () {
             $(`#${target}`).load(`/sections/${section}/${section}.html`, function () {
 
-                if(mathjax){
+                if (mathjax) {
                     MathJax.typeset([`#${target}`])
                 }
 
-                if(script){
+                if (script) {
                     $.getScript(`/sections/${section}/${section}.js`)
                 }
-                
-                if(highlighted){
+
+                if (highlighted) {
                     $('.activated').removeClass('activated')
                     $(`#${selector}`).addClass("activated")
                 }
 
             });
-            
+
         });
     }
 }
