@@ -1,0 +1,88 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    background-color: var(--main-bg-color);
+    color: var(--main-letter-color);
+    font-family: 'Dosis', sans-serif;
+}
+
+
+
+li.nav-link {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold; 
+    letter-spacing: 0.1em;
+    color: var(--main-letter-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    list-style: none;
+  }
+
+  a.nav-link-logo {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: var(--main-letter-color);
+    transition: color 0.3s ease;
+  }
+
+.nav-row-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom: 0.5em;
+
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 90px ;
+  }
+
+  .nav-row-2 {
+    display: grid;
+    grid-template-columns: [first] 30% [other]auto [last] 30%;
+
+    padding-left:1%;
+    padding-right:1%;
+    padding-top: 0.5em;
+    
+    border-top:0.1em;
+    border-top-color:var(--main-letter-color);
+    border-top-style:solid; 
+  }
+
+  .left {
+    justify-self:left;
+  }
+
+  .middle {
+    justify-self: center;
+  }
+
+  .right {
+    justify-self:end;
+  }
+
+  div li:hover {
+    color: var(--main-hover-color);
+    cursor: pointer;
+  }
+
+  li.activated {
+    color: var(--main-activated-color);
+  }
+
+  .nav-link-logo:hover path {
+    fill:var(--main-hover-color);
+    transition: fill 0.3s ease;
+
+  }
