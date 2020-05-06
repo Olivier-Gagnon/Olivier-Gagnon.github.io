@@ -1,13 +1,6 @@
 @import url("./components/components.css");
 @import url("./sections/sections.css");
 
-:root {
-    --main-bg-color:#fcfcfd7a;  
-    --main-letter-color: #1a225c;
-    --main-hover-color:#4c83fc;
-    --main-activated-color:#1c58db;
-  }
-
 * {
     padding:0;
     margin:0;
@@ -18,6 +11,17 @@ html {
     background-color: var(--main-bg-color);
     color:var(--main-letter-color);
     display: flex;
+    --main-bg-color:#fcfcfd7a;  
+    --main-letter-color: #1a225c;
+    --main-hover-color:#4c83fc;
+    --main-activated-color:#1c58db;
+}
+
+.dark-mode {
+    --main-bg-color:#2c2b2e;  
+    --main-letter-color: #fcfcfd;
+    --main-hover-color:#4c83fc;
+    --main-activated-color:#1c58db;
 }
 
 body {

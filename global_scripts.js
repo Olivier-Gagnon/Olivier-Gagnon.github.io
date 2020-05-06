@@ -7,6 +7,7 @@ $(document).ready(function () {
 
     // Handle HomePage
     $('#section-container').load("/sections/home/home.html", function () {
+        $.getScript("/sections/home/home.js")
     });
 
     // Handle Footer
