@@ -11,18 +11,18 @@ html {
     background-color: var(--main-bg-color);
     color:var(--main-letter-color);
     display: flex;
-    --main-bg-color:#fcfcfd7a;  
-    --main-letter-color: #1a225c;
-    --main-hover-color:#4c83fc;
-    --main-activated-color:#1c58db;
+    --main-bg-color:#ffffff;  
+    --main-letter-color: #000000;
+    --main-hover-color:#a7a7a7;
+    --main-activated-color:#a7a7a7;
 }
 
-.dark-mode {
+/* .dark-mode {
     --main-bg-color:#2c2b2e;  
-    --main-letter-color: #fcfcfd;
+    --main-letter-color: #ffffff;
     --main-hover-color:#4c83fc;
     --main-activated-color:#1c58db;
-}
+} */
 
 body {
     display: flex;

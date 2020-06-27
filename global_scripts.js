@@ -12,6 +12,7 @@ $(document).ready(function () {
 
     // Handle Footer
     $('#footer-container').load("/components/footer/footer.html", function () {
+        $.getScript("/components/footer/footer.js")
     });
 
 });
