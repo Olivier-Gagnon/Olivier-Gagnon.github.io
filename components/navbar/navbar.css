@@ -7,8 +7,6 @@
     font-family: 'Dosis', sans-serif;
 }
 
-
-
 li.nav-link {
     display:flex;
     justify-content:center;
@@ -21,6 +19,7 @@ li.nav-link {
     text-decoration: none;
     transition: color 0.3s ease;
     list-style: none;
+    margin-right: 5px;
   }
 
   a.nav-link-logo {
@@ -44,7 +43,7 @@ li.nav-link {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    width: 90px ;
+    min-width: 120px ;
   }
 
   .nav-row-2 {
@@ -74,7 +73,7 @@ li.nav-link {
 
   div li:hover {
     color: var(--main-hover-color);
-    cursor: pointer;
+
   }
 
   li.activated {
@@ -84,5 +83,9 @@ li.nav-link {
   .nav-link-logo:hover path {
     fill:var(--main-hover-color);
     transition: fill 0.3s ease;
+    cursor: pointer;
+  }
 
+  .nav-link {
+    cursor: pointer;
   }
