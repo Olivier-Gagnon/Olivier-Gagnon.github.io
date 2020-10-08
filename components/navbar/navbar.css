@@ -8,24 +8,17 @@
 }
 
 li.nav-link {
-    display:flex;
-    justify-content:center;
-    align-items:center;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: bold; 
     letter-spacing: 0.1em;
     color: var(--main-letter-color);
-    text-decoration: none;
     transition: color 0.3s ease;
     list-style: none;
     margin-right: 5px;
   }
 
   a.nav-link-logo {
-    display:flex;
-    justify-content:center;
-    align-items:center;
     color: var(--main-letter-color);
     transition: color 0.3s ease;
   }
