@@ -5,7 +5,6 @@ const pages = [
         target: "section-container",
         section: "home",
         mathjax: true,
-        script: false,
         highlighted: false
     }
 ]
@@ -17,14 +16,14 @@ function loadPage(page) {
         $(`#${selector}`).click(function () {
             $(`#${target}`).load(`/sections/${section}/${section}.html`, function () {
 
+                // Make sure mathjax load correctly
                 if (mathjax) {
                     MathJax.typeset([`#${target}`])
                 }
 
-                if (script) {
-                    $.getScript(`/sections/${section}/${section}.js`)
-                }
-
+                // Make sure script load correctly
+                $.getScript(`/sections/${section}/${section}.js`)
+                
                 if (highlighted) {
                     $('.activated').removeClass('activated')
                     $(`#${selector}`).addClass("activated")
