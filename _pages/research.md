@@ -4,9 +4,9 @@ title: "Research"
 author_profile: true
 ---
 
-#Research
+# Research
 
-##Work in Progress
+## Work in Progress
 
 - Work 1
 - Work 2
