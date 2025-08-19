@@ -6,6 +6,6 @@ author_profile: true
 
 ## Work in Progress
 
-- Work 1
-- Work 2
-- Work 3
+- The Impact of Mass Layoffs on the Economic Integration of Immigrants
+- Moving Forward: Geographical Mobility and Recovery Patterns Among Displaced Workers
+- Why Do STEM Graduates Work in Unrelated Jobs? Initial Placement, Self-Selection and Switching Costs
