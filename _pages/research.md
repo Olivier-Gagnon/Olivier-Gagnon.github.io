@@ -6,7 +6,7 @@ author_profile: true
 
 ## Job Market Paper
 
-**[Are Recent Immigrants More Resilient to Job Loss? Evidence from Mass Layoffs in Canada](files/JMP_Olivier_Gagnon_latest.pdf)**
+**[Are Recent Immigrants More Resilient to Job Loss? Evidence from Mass Layoffs in Canada](/files/JMP_Olivier_Gagnon_latest.pdf)**
 
 <details>
 <summary><strong>Abstract</strong></summary>
