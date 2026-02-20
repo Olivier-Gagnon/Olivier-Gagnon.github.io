@@ -17,5 +17,5 @@ This paper measures the effect of job loss on the subsequent labor market outcom
 
 ## Work in Progress
 
-- Moving Forward: Geographical Mobility and Recovery Patterns Among Displaced Workers
+- Local Conditions, Outside Options, and the Cost of Job Displacement
 - Why Do STEM Graduates Work in Unrelated Jobs? Initial Placement, Self-Selection and Switching Costs
